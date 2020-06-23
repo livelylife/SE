@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    window.onload = function () {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.withCredentials = true;
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var response = xmlhttp.responseText;
+                console.log(response)
+            }
+        }
+        xmlhttp.open("POST", "./myServlet?parameters=4646464", true);
+        xmlhttp.send();
+    }
+</script>
+</body>
+</html>

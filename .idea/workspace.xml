@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+            <state relative-caret-position="459">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -35,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -44,6 +45,7 @@
       <find>img</find>
       <find>layuiMaternalBabyMall-v1.0.0/res/static/</find>
       <find>layuiMaternalBabyMall-v1.0.0/res/</find>
+      <find>../</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -58,12 +60,19 @@
         <option value="$PROJECT_DIR$/SE/src/main/java/com/servlet/myServlet.java" />
         <option value="$PROJECT_DIR$/SE/src/main/java/com/SE/servlet/myServlet.java" />
         <option value="$PROJECT_DIR$/SE/pom.xml" />
-        <option value="$PROJECT_DIR$/SE/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/SE/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/SE/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/SE/src/main/webapp/information.html" />
         <option value="$PROJECT_DIR$/SE/src/main/resources/webapp/about.html" />
         <option value="$PROJECT_DIR$/SE/src/main/resources/webapp/index.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/resources/webapp/js/util/util.js" />
+        <option value="$PROJECT_DIR$/SE/src/main/resources/webapp/WEB-INF/ajax.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/user/about.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/admin/login.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/user/buytoday.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/user/ajax.html" />
+        <option value="$PROJECT_DIR$/SE/src/main/webapp/ajax.html" />
       </list>
     </option>
   </component>
@@ -94,7 +103,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,25 +121,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,8 +145,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\idea\SE\SE\src\main\resources" />
       <recent name="F:\workspace\idea\SE\SE\src\main\webapp" />
+      <recent name="F:\workspace\idea\SE\SE\src\main\webapp\user" />
+      <recent name="F:\workspace\idea\SE\SE\src\main" />
+      <recent name="F:\workspace\idea\SE\SE\src\main\resources" />
       <recent name="F:\workspace\idea\SE\SE\src\main\webapp\JavaScript" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -171,9 +167,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.SE">
+    <configuration name="All in SE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SE" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SE_war_exploded/index.html" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SE_war_exploded/user/index.html" />
       <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -248,6 +252,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in SE" />
+      <item itemvalue="Tomcat Server.SE" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in SE" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -267,16 +280,18 @@
       <workItem from="1592440091674" duration="960000" />
       <workItem from="1592445161522" duration="4742000" />
       <workItem from="1592463821905" duration="83000" />
+      <workItem from="1592466303230" duration="4129000" />
+      <workItem from="1592478051091" duration="2316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20947000" />
+    <option name="totallyTimeSpent" value="27392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5326087" visible="true" weight="0.14293598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5326087" visible="true" weight="0.14624724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -291,7 +306,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49889624" weight="0.32916668" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49889624" weight="0.11770833" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49944812" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022075" side_tool="true" weight="0.32916668" />
@@ -324,70 +339,148 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/java/com/SE/servlet/myServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/buytoday.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2592" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/layui-v2.5.6/更新日志.url" />
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/information.html">
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/information.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/details.html">
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/js/util/car.js">
+    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/WEB-INF/ajax.html" />
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="135">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/admin/500.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/target/SE/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/target/SE/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/buytoday.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/js/util/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/about.html">
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/js/util/util.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/js/util/mm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SE/src/main/resources/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/js/util.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/layui/layui.all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/java/com/SE/servlet/myServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/main/webapp/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -456,7 +549,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
