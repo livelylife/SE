@@ -1,0 +1,156 @@
+mmall_user表 （用户）
+
+ `id` '用户表id', key
+
+name    真实姓名
+
+user_id 身份证号
+
+ `username` '用户名',
+
+ `password`  '用户密码，MD5加密',
+
+ `email`
+
+ `phone` 
+
+ `question`  '密码提示问题',
+
+ `answer`  '答案',
+
+ `role`  '角色0-系统管理员,1-普通管理员，2-普通用户',
+
+
+
+mmall_product表 （产品）
+
+ `id` '商品id', key
+
+ `category_id` '分类id',
+
+ `name`  '商品名称',
+
+ `main_image`  '产品主图,url相对地址',
+
+ `sub_images`  '图片地址,json格式,扩展用',
+
+ `detail`  '商品详情',
+
+ `price`  '价格,单位-元保留两位小数',
+
+ `stock` '库存数量',
+
+ `status` '商品状态.1-在售 2-下架 3-删除',
+
+
+
+mmall_category表 （类别）
+
+ `id` '类别Id',key
+
+ `parent_id` 父类id 当id=0时说明是根节点,一级类别',
+
+ `name`  '类别名称',
+
+ `status`  '类别状态1-正常,2-已废弃',
+
+ `sort_order` '排序编号,同类展示顺序,数值相等则自然排序',
+
+ 
+
+mmall_orde （订单表）
+
+ `id`  '订单id',key
+
+ `order_no`  '订单号',用函数生成从12312开始递增。。
+
+ `user_id`  '用户id',
+
+ `shipping_id` 用来连接地址表，查询相关信息
+
+ `payment` '实际付款金额,单位是元,保留两位小数',
+
+ `payment_type`  '支付类型,1-在线支付',
+
+ `postage`  '运费,单位是元',
+
+ `status` '订单状态:0-已取消-1-未付款，2-已付款，3-已发货，4-交易成功，5-交易关闭',
+
+ `payment_time` '支付时间',
+
+ `send_time`  '发货时间',
+
+ `end_time`  '交易结束时间',
+
+ 
+
+mmall_order_item（订单商品表）
+
+ `id` '订单子表id',
+
+ `order_no` ‘订单号’ 
+
+ `product_id`  '商品id',
+
+ `product_name`  '商品名称',
+
+ `product_image` '商品图片地址',
+
+ `current_unit_price`  '生成订单时的商品单价，单位是元,保留两位小数',
+
+ `quantity`  '商品数量',
+
+ `total_price`  '商品总价,单位是元,保留两位小数', 
+
+
+
+mmall_cart（购物车表)
+
+ `id` 
+
+ `user_id` 
+
+ `product_id` '商品id',
+
+ `quantity` '数量',
+
+ `checked` '是否选择,1=已勾选,0=未勾选',
+
+
+
+mmall_pay_info(支付表)
+
+ `id`
+
+ `user_id`  '用户id',
+
+ `order_no`  '订单号',
+
+ `pay_platform` '支付平台:1-支付宝,2-微信',
+
+ `platform_number`  '支付宝支付流水号',
+
+  end_time`  '支付时间',
+
+
+
+mmall_shipping（收货地址表）
+
+ `id` 
+
+ `user_id`  '用户id',
+
+ `receiver_name`  '收货姓名',
+
+ `receiver_phone`  '收货电话',
+
+ `receiver_province`  '省份',
+
+ `receiver_city`  '城市',
+
+ `receiver_district` '区/县',
+
+ `receiver_address`  '详细地址',
+
+ `receiver_zip`  '邮编',
+
